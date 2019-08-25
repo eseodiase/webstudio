@@ -1,0 +1,1373 @@
+.logo{
+
+    font-size: 24px;
+    float: right;
+
+    color: #234;
+
+    line-height: 60px;
+
+    font-weight: bold;
+
+    margin-right: 15px;
+
+    cursor: pointer;
+
+}
+
+
+.header{
+
+    height: 100vh;
+
+    background-size: cover;
+
+    background-color: transparent;
+
+    margin: 10px;
+
+    overflow: hidden;
+
+}
+
+.nav{
+
+   
+
+    line-height: 60px;
+
+    opacity: 0.5;
+
+    background-color: #234;
+
+    width: 100%;
+
+    overflow: hidden;
+
+}
+
+.menu{
+
+    display: block;
+
+    background-color: #1f1f1f;
+
+}
+
+
+.menu a{
+
+    display: inline-block;
+
+    color: #fff;
+
+    text-decoration:none;
+
+    line-height: 60px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    padding: 16px;
+
+    font-size: 20px;
+
+}
+.menu a.active{
+    background-color: gold;
+}
+.menu a:hover{
+
+    background-color: gold;
+
+    color: yellowgreen;
+
+}
+
+
+input[type="checkbox"]{
+
+    display: none ;
+
+}
+
+
+label{
+
+     color: #fff;
+
+font-size: 30px;
+
+    cursor: pointer;
+
+    display: none;
+
+    line-height: 60px;
+
+    margin-left: 20px;
+
+}
+
+
+.container{
+
+    margin-top: 45px;
+
+    width: 100% ;
+
+    height: 500px;
+
+    text-align: center;
+
+}
+
+.centered-text h2{
+
+    color: powderblue;
+
+    text-align: center;
+
+}
+
+.centered-text h4{
+
+    color: white;
+
+    text-align: center;
+
+}
+.centered-shape h3{
+background-color:yellowgreen;
+  text-align:center; 
+  color:#fff;
+  width:100px;
+  border-radius: 20px 0px 0px 0px;
+  }
+
+
+ion-icon{
+
+    font-size: 30px;
+
+}
+
+details{
+font-style: ;
+
+}
+body{
+
+    background: url(https://shapemytech.files.wordpress.com/2019/04/img_20180325_174416_398.jpg)no-repeat 50% 50%; 
+
+    background-size: cover;
+
+}
+
+html,body{
+
+    width: 100%;
+
+    margin: 0px;
+
+    height: auto;
+
+}
+
+
+.main{
+
+    margin: 10px;
+
+}
+
+
+.box{
+
+    width: 100%;
+
+    height: auto;
+
+
+    margin: 0px;
+
+}
+
+.boxes{
+	width: 32%;
+	margin:2px;
+    float: left;
+    
+}
+#boxsize{
+height: 320px;
+border: 5px solid #345;
+border-radius: 15px;
+background-color: #777;
+}
+#boxsize:hover{
+border: 5px solid teal;
+}
+.after-float{
+
+    clear: both;
+
+}
+
+
+.lightgrey{
+
+    background-color: lightgrey;
+
+    height: 36px;
+
+    text-align: center;
+
+    width: 40px;
+
+    margin: none;
+
+    border-radius: 10%;
+
+    font-size: 18px;
+   
+
+}
+
+#whitesmoke{
+    background-color: whitesmoke;
+
+    height: 36px;
+
+    text-align: center;
+
+    width: 40px;
+
+    margin: none;
+
+    border-radius: 10%;
+
+    font-size: 18px;
+    margin-left: 46px;
+}
+
+.orangered{
+
+    height: 36px;
+
+    text-align: center;
+
+    width: 40px;
+
+    background-color: orangered;
+
+    border-radius: 8%;
+
+    font-size: 40px;
+
+    color:#fff;
+
+}
+
+.black{
+
+    height: 36px;
+
+    text-align: center;
+
+    width: 40px;
+
+    background-color: grey;
+
+    border-radius: 8%;
+
+}
+
+.orange{
+
+    height: 36px;
+
+    text-align: center;
+
+    width: 40px;
+
+    background-color: orangered;
+
+    border: none;
+
+    margin-top: 2px;
+
+    border-radius: 8%;
+
+}
+
+.pink{
+
+    height: 36px;
+
+    text-align: center;
+
+    width: 40px;
+
+    background-color: orange;
+
+    border: none;
+
+    border-radius: 8%;
+
+}
+
+input[type="reset"]{
+
+    font-size: 15px;
+
+    width: 41px;
+
+    height: 35px;
+
+    color: #ccc;
+
+    background-color: #235;
+
+    border: none;
+
+    border-radius: 8%;
+
+    margin-left: 2px;
+
+    margin-top: 4px;
+
+}
+
+
+input[type="textfield"]{
+
+    width: 60%;
+
+    height: 50px;
+
+    margin-left: 45px;
+
+    margin-bottom: 5px;
+
+    font-size: 40px;
+
+    border-radius: 2%;
+
+    box-shadow: 15px, 19px lightgrey;
+
+    border: none;
+
+}
+
+h2{
+
+    text-align: center;
+
+    color: #fff;
+
+}
+td{
+	height:32px;
+	padding:2px;	
+}
+span{
+
+    color: #fff;
+
+    background-color: teal;
+
+}
+
+
+slider {
+
+display:block;
+
+width: 100%;
+
+height: 500px;
+
+background-color: transparent;
+
+overflow: hidden;
+
+position: relative;
+
+}
+
+slider > * {
+
+position: absolute;
+
+display: block;
+
+width: 100%;
+
+height: 500px;
+
+background-color: transparent;
+
+animation: slide 12s infinite;
+
+}
+
+
+slide:nth-child(1) {
+
+left: 0%;
+
+animation-delay: 5s;
+
+height: 4000px;
+
+background-position: center;
+
+background-image: url(https://shapemytech.files.wordpress.com/2019/05/inshot_20190507_233717615.jpg?w=620);
+
+}
+
+
+slide:nth-child(2) {
+
+animation-delay: 10s;
+
+background-size: cover;
+
+background-position: center;
+
+background-image: url();
+
+}
+
+
+slide:nth-child(3) {
+
+animation-delay: 15s;
+
+height: 400px;
+
+background-position: center;
+
+background-image: url(https://shapemytech.files.wordpress.com/2019/05/inshot_20190507_221056759.jpg?w=620.jpg);
+
+}
+
+
+slide:nth-child(4) {
+
+animation-delay: 20s;
+
+background-size: cover;
+
+background-position: center;
+
+background-image: url(images/header_Image1.jpg);
+
+}
+
+
+slide p {
+
+font-family:
+
+display: inline-block;
+
+text-align: center;
+
+width: 100%;
+
+font-size: 70px;
+
+color: white;
+
+}
+
+
+@keyframes slide {
+
+0% {left: 100%; width: 100%;}
+
+5% {left: 0%;}
+
+25% {left: 0%;}
+
+30% { left: -100%; width: 100%;}
+
+30.0001% {left: -100%; width: 0%;}
+
+100% {left: 100%; width: 0%;}
+
+}
+
+
+.footer{
+
+    text-align: center;
+
+    color: #fff;
+
+    width: 100%;
+
+    background:-webkit-linear-gradient(teal,yellowgreen);
+	background:-moz-linear-gradient(teal,yellowgreen);
+	background:-ms-linear-gradient(teal,yellowgreen);
+	background:-o-linear-gradient(teal,yellowgreen);
+    margin: 0px;
+
+}
+
+form{
+
+    width: 100%;
+
+    color: #eee;   
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+}
+
+
+
+.column {
+
+    padding:5px;
+
+    border: 1px solid #fff;
+
+    float: left;
+
+    margin: 2px;
+
+    width: 48%;
+
+    height: 520px;
+
+    box-shadow: 2px 2px 5px 5px orange;
+    background-color: #ccc;
+
+}
+
+
+.row {
+
+    width: 100%;
+
+    content: "";
+
+    display: table;
+
+}
+
+h3{
+
+    text-align: center;
+
+    color: #fff;
+
+}
+
+.contact{
+
+    color: yellowgreen;
+
+}
+
+.centered-button input{
+	cursor:pointer;
+    width: auto;
+
+    border: 1px #fff solid;
+
+    border-radius: 30px;
+
+    background-color: transparent;
+
+    color: yellowgreen;
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+}
+
+.transparent{
+
+    background-color: transparent;
+
+    border: 4px white solid;
+
+    border-radius: 8px;
+
+    margin: 2px;
+
+    height: 40px;
+
+    width: 75%;
+
+    color: #fff;
+
+    font-weight: bold;
+
+
+}
+
+.transparents{
+
+    font-weight: bold;
+
+    background-color: transparent;
+
+    border: 4px white solid;
+
+    border-radius: 8px;
+
+    width: 95%;
+
+    height: auto;
+
+    color: #fff;
+
+    font-size: 12pt;
+
+}
+
+.submit{
+width: 80px;
+height: 40px;
+    font-size: 18px;
+	cursor:pointer;
+    font-weight: bold;
+
+    color: #fff;
+
+    background-color: teal;
+
+    border: none;
+
+    border-radius: 4px;
+
+}
+
+.send{
+width: 60px;
+height: 40px;
+font-size: 18px;
+cursor:pointer;
+    font-weight: bold;
+
+    color: teal;
+
+    background-color: #fff;;
+
+    border: none;
+
+    border-radius: 4px;
+    text-align: center;
+}
+
+.measurement{
+    font-weight: bold;
+
+}
+
+#enterNum{
+
+    height: 50px;
+
+    width: 280px;
+
+    margin-left: 45px; 
+
+}
+
+.pcenter{
+
+   text-align: left;
+
+   margin-left: 15px;
+
+}
+
+.pright{
+
+   text-align: right;
+
+   margin-right: 0px;
+
+}
+
+a:link,p{
+
+    text-decoration: none;
+
+    color: white;
+
+    font-weight: bold;
+
+}
+
+a:link{
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+a:visited{
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+a:hover{
+
+    text-decoration: none;
+
+    color: yellowgreen;
+
+}
+
+a:active{
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+.embed{
+    width: 330px;
+    height: 250px;
+    margin-left: 50px;
+
+}
+
+.hire{
+width: 240px;
+height:33px;
+float:left;
+margin:2px;
+border-radius: 6px;
+border:none;
+padding:4px;
+}
+.hirenow{
+height:30px;
+float:left;
+border-radius: 6px;
+border:none;
+}
+#hnc{
+text-align: center;
+}
+.ad{
+width: 410px;
+height: 300px;
+border:none;
+    
+
+    
+}
+
+#tog:checked + .details{
+
+    display: block;
+}
+.label{
+
+    
+font-size: 30px;
+
+    cursor: pointer;
+
+    display: block;
+
+    margin-left: 0px;
+
+}
+.details{
+	
+    display: none;
+	}
+	
+
+	
+#togg:checked + .terms{
+
+    display: block;
+}
+#label{
+
+    margin-left: 0px;
+font-size: 30px;
+
+    cursor: pointer;
+
+    display: block;
+
+
+}
+.terms{
+
+    display: none;
+	}
+	
+	
+	#toggl:checked + .certimg{
+
+    display: block;
+}
+
+.forlabel{
+
+    margin-left: 0px;
+font-size: 30px;
+
+    cursor: pointer;
+
+    display: block;
+
+
+}
+.certimg{
+
+    display: none;
+	}
+
+
+	div.gallery {
+   
+   border: 1px solid #ccc;
+   float: left;
+   width: 24.8%;
+   background-color: #777;
+}
+
+div.gallery:hover {
+   border: 1px solid #345;
+}
+
+div.gallery img {
+   width: 100%;
+   height: 200px;
+}
+
+div.desc {
+   padding: 10px;
+   text-align: center;
+   
+}	
+.here{
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+}
+.abt{
+    color:teal;
+}
+@media only screen and (max-width: 750px){
+
+	div.gallery {
+   
+   border: 1px solid #ccc;
+   
+   width: 100%;
+}
+.abt{
+    color:#123;
+}
+div.gallery:hover {
+   border: 1px solid #777;
+}
+
+div.gallery img {
+   width: 100%;
+   height: 200px;
+}
+
+div.desc {
+   padding: 10px;
+   text-align: center;
+   
+}
+.main{
+
+    margin: 18px;
+
+}
+
+body{
+
+    background: -webkit-linear-gradient( pink, powderblue);
+
+}  
+
+.header{
+
+    background: url(https://shapemytech.files.wordpress.com/2019/04/6572869154489069922.jpg)no-repeat 50% 50%;
+
+    opacity: 1;
+
+    background-size: cover;
+
+    margin: 0px;
+
+}
+
+.logo{
+
+    color:#fff;
+
+}
+
+.nav{
+
+    border-bottom: solid #345;
+
+    line-height: 40px;
+
+}
+
+#toggle:checked + .menu{
+
+    display: block;
+
+}
+
+.menu{
+
+    display: none;
+
+    background-color: yellowgreen;
+
+}
+
+.menu a{
+
+    display: block;
+
+    color: #fff;
+
+    text-decoration:none;
+
+    line-height: 60px;
+
+    text-align: center;
+
+    padding: 0px;
+
+    border-bottom: solid #fff;
+    
+font-weight: normal;
+}
+
+.menu a:hover{
+
+    background-color: lavender;
+
+    color: yellowgreen;
+
+}
+
+input[type="checkbox"]{
+
+    display: none ;
+
+}
+
+label{
+
+    font-size: 30px;
+
+    cursor: pointer;
+
+    display: block;
+
+
+}
+
+
+.box{
+
+    width: 98%;
+padding: 0px;
+margin: 0px;
+    }
+
+   
+
+.boxes{
+
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+}
+#boxsize{
+    background-color: #ccc;
+}
+#boxsize:hover{
+border: none;
+}
+input[type="button"]
+
+{
+	cursor:pointer;
+    font-size: 24px;
+
+    text-align: center;
+
+    width: 22%;
+    height: 36px;
+
+    float: center;
+
+    margin-left: 4px;
+
+    border-radius: 8%;
+
+    color: #235;
+
+}
+
+
+input[type="reset"]{
+
+    font-size: 24px;
+
+    width: 22%;
+height: 36px;
+    margin-top: 5px;
+
+    margin-left: 4px;
+
+    color: #ccc;
+
+    background-color: #235;
+
+    border: none;
+
+    border-radius: 8%;
+
+}
+
+#whitesmoke{
+    background-color: lightgrey;
+
+    width: 22%;
+    height: 36px;
+
+    text-align: center;
+
+    margin: none;
+
+    border-radius: 10%;
+
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+
+.orange{
+
+    background-color: orangered;
+
+    border: none;
+
+}
+
+.pink{
+
+    background-color: orange;
+
+    border: none;
+
+}
+
+input[type="textfield"]{
+
+    width: 100%;
+
+    height: 100px;
+
+    margin-left: 0px;
+    padding: 5px;
+
+    margin-bottom: 5px;
+
+    font-size: 40px;
+
+    border-radius: 2%;
+
+    box-shadow: 3px 2px 3px 1px grey;
+
+    border: none;
+
+}
+
+h2{
+
+    text-align: center;
+
+    color: #fff;
+
+}
+
+h3{
+
+    text-align: center;
+
+    color: #fff;
+
+}
+
+
+.column {
+
+    border: none;
+
+    float: none;
+
+    margin: 0px;
+
+    width: 100%;
+
+    height: auto;
+
+    box-shadow: none;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+
+.row {
+
+    width: 100%;
+
+    content: "";
+
+    display: table;
+    margin: 0px;
+
+}
+
+
+.centered-button input{
+	cursor:pointer;
+    width: auto;
+
+    border: 1px white solid;
+
+    border-radius: 30px;
+
+    background-color: transparent;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+.transparent{
+
+   color: #234;
+
+}
+
+.transparents{
+
+    background-color: transparent;
+
+    border: 4px white solid;
+
+    border-radius: 8px;
+
+    width: 94%;
+
+    color: #234;
+    box-shadow: 3px 2px 3px 1px grey;
+
+}
+
+
+form{
+
+    color: #234;   
+
+    font-size: 16px;
+
+    }
+
+
+slider {
+
+    display:none;
+
+}
+
+slider > * {
+
+    display: none;
+
+}
+
+
+slide p {
+
+    font-family: ;
+
+    display: none;
+
+}
+
+#enterNum{
+
+    height: 100px;
+
+    width: 100%;
+
+    margin-left: 0px; 
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 2%;
+
+    box-shadow: 3px 2px 3px 1px grey;
+
+    border: none;
+}
+.menu a.active{
+    background-color: yellowgreen;
+}
+
+.footer{
+
+    color: #fff;
+
+    background: -webkit-linear-gradient(#234,yellowgreen);
+
+   
+
+}
+
+.pcenter{
+
+    margin: 0px;
+
+    text-align: left;
+
+}
+
+.pright{
+
+    margin: 0px;
+
+    text-align: left;
+
+}
+
+#mobilefooter{
+    text-align: left;
+}
+a:link, p {
+
+    text-decoration: none;
+
+    color: #235;
+font-weight: normal;
+}
+a:link{
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+a:visited{
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+a:hover{
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+a:active{
+
+    text-decoration: none;
+
+    color: #fff;
+
+}
+
+.submit{
+width: 80px;
+height: 40px;
+    font-size: 14px;
+
+    font-weight: bold;
+
+    color: #fff;
+
+    background-color: teal;
+
+    border: none;
+
+    border-radius: 4px;
+
+}
+
+.send{
+width: 60px;
+height: 40px;
+font-size: 14px;
+
+    font-weight: bold;
+
+    color: teal;
+
+    background-color: #fff;
+
+    border: none;
+
+    border-radius: 4px;
+    text-align: center;
+}
+
+.embed{
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+
+}
+.ad{
+    width: 100%;
+    height: 250px;
+}
+.hire{
+width: 240px;
+height:36px;
+float:none;
+}
+.hirenow{
+height:30px;
+float:none;
+}
+#boxsize{
+height: auto;
+border: none;
+}
+
+}
+

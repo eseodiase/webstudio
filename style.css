@@ -741,12 +741,17 @@ a:active{
 
 }
 .embed{
+    overflow: hidden;
     width: 424px;
     height: 250px;
     margin-left: 0px;
 border-radius: 0px 0px 10px 10px;
 }
-
+img{
+overflow: hidden;
+object-fit: cover;
+object-position: 50% 50%;
+}
 .hire{
 width: 240px;
 height:33px;

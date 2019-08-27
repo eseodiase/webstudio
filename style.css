@@ -744,6 +744,8 @@ a:active{
 
 }
 .embed{
+    object-fit: cover;
+    object-position: 50% 50%;
     overflow: hidden;
     width: 100%;
     height: 250px;
@@ -752,8 +754,6 @@ border-radius: 0px 0px 10px 10px;
 }
 img{
 overflow: hidden;
-object-fit: cover;
-object-position: 50% 50%;
 }
 .hire{
 width: 240px;

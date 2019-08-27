@@ -187,7 +187,7 @@ html,body{
     width: 100%;
 
     height: auto;
-
+    overflow: hidden;
 
     margin: 0px;
 
@@ -197,13 +197,16 @@ html,body{
 	width: 32%;
 	margin:2px;
     float: left;
-    
+    overflow: hidden;
+
 }
 #boxsize{
 height: 320px;
 border: 5px solid #345;
 border-radius: 15px;
 background-color: #777;
+overflow: hidden;
+
 }
 #boxsize:hover{
 border: 5px solid teal;
@@ -742,7 +745,7 @@ a:active{
 }
 .embed{
     overflow: hidden;
-    width: 424px;
+    width: 100%;
     height: 250px;
     margin-left: 0px;
 border-radius: 0px 0px 10px 10px;
@@ -1007,6 +1010,7 @@ margin: 0px;
    
 
 .boxes{
+    overflow: hidden;
 
     width: 100%;
     padding: 0px;
@@ -1015,6 +1019,8 @@ margin: 0px;
 #boxsize{
 box-shadow: 3px 2px 3px 1px grey;
     background-color: #ccc;
+    overflow: hidden;
+
 }
 #boxsize:hover{
 border: none;
